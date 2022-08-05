@@ -1,9 +1,14 @@
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>What ever</h1>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path='/' exact />
+      </Switch>
+    </Router>
   );
 }
