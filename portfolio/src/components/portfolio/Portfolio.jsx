@@ -44,7 +44,7 @@ const data = [
         demo:'https://trvala.netlify.app/'
     },
     {
-        id: 5,
+        id: 6,
         image: IMG6,
         title: 'Hip Hop Artist Website - For booking artist',
         github:'https://github.com/renegadec/react/tree/main/travel-website',
