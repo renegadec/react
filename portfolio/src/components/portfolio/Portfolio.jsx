@@ -1,11 +1,9 @@
 import React from 'react'
 import './Portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.jpeg'
 import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG3 from '../../assets/portfolio3.jpeg'
+
 
 const data = [
     {
@@ -13,42 +11,48 @@ const data = [
         image: IMG1,
         title: 'Travla Website - Traveling Agency Site',
         github:'https://github.com/renegadec/react/tree/main/travel-website',
-        demo:'https://trvala.netlify.app/'
+        demo:'https://trvala.netlify.app/',
+        tech: 'HTML, CSS, REACT'
     },
     {
         id: 2,
-        image: IMG2,
-        title: 'Cryptocurrency Dashboard and Live Price Tracker',
-        github:'https://github.com/renegadec/react/tree/main/travel-website',
-        demo:'https://trvala.netlify.app/'
+        image: IMG3,
+        title: 'Movie Land App',
+        github:'https://github.com/renegadec/react/tree/main/movieland',
+        demo:'https://reactmovie-land.netlify.app',
+        tech: 'HTML, CSS, REACT'
     },
     {
         id: 3,
-        image: IMG3,
-        title: 'Bitcoin Web Wallet - Store your bitcoins',
-        github:'https://github.com/renegadec/react/tree/main/travel-website',
-        demo:'https://trvala.netlify.app/'
+        image: IMG2,
+        title: 'Bitcoin Web Wallet',
+        github:'#',
+        demo:'#',
+        tech: '-'
     },
     {
         id: 4,
-        image: IMG4,
+        image: IMG2,
         title: 'Cake Shop E-commerce Website',
-        github:'https://github.com/renegadec/react/tree/main/travel-website',
-        demo:'https://trvala.netlify.app/'
+        github:'#',
+        demo:'#',
+        tech: '-'
     },
     {
         id: 5,
-        image: IMG5,
-        title: 'School Website - Website Student application',
-        github:'https://github.com/renegadec/react/tree/main/travel-website',
-        demo:'https://trvala.netlify.app/'
+        image: IMG2,
+        title: 'School Website',
+        github:'#',
+        demo:'#',
+        tech: '-'
     },
     {
         id: 6,
-        image: IMG6,
-        title: 'Hip Hop Artist Website - For booking artist',
-        github:'https://github.com/renegadec/react/tree/main/travel-website',
-        demo:'https://trvala.netlify.app/'
+        image: IMG2,
+        title: 'Hip Hop Artist Website',
+        github:'#',
+        demo:'#',
+        tech: '-'
     },
 ]
 
@@ -60,13 +64,14 @@ const Portfolio = () => {
 
             <div className="container portfolio__container">
                 {
-                    data.map(({id, image, title, github, demo}) => {
+                    data.map(({id, image, title, github, demo, tech}) => {
                         return (
                             <article key={id} className='portfolio__item'>
                                 <div className="portfolio__item_image">
                                     <img src={image} alt={title} />
                                 </div>
                                 <h3>{title}</h3>
+                                <h4>{tech}</h4>
                                 <div className="portfolio__item_cta">
                                     <a href={github} className='btn'>Github</a>
                                     <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>

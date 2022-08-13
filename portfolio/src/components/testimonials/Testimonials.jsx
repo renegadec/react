@@ -2,10 +2,6 @@ import React from 'react'
 import './Testimonials.css'
 import AVTR1 from '../../assets/avatar1.jpg'
 import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
-import AVTR4 from '../../assets/avatar4.jpg'
-
-// import Swiper core and required modules
 import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -19,29 +15,19 @@ import 'swiper/css/pagination';
 const data = [
     {
         avatar: AVTR1,
-        client_name: 'Tina Snow',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elitDolore temporibus at dolorem culpa necessitatibus perspiciatis beatae ex nihil, iste, optio qui esse officiis voluptates id ea reiciendis obcaecati perferendis.'
+        client_name: 'ANTOINE',
+        review: 'Confidence is a talented go-getter, always adding value. Throughout our lasting work relationship, Confidence has brought professionalism, creativity, and optimism. Looking forward to continuing on a path of success with this stellar individual. A true team player!'
     },
     {
         avatar: AVTR2,
-        client_name: 'N Richards',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elitDolore temporibus at dolorem culpa necessitatibus perspiciatis beatae ex nihil, iste, optio qui esse officiis voluptates id ea reiciendis obcaecati perferendis.'
-    },
-    {
-        avatar: AVTR3,
-        client_name: 'Maasdoorp Market',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elitDolore temporibus at dolorem culpa necessitatibus perspiciatis beatae ex nihil, iste, optio qui esse officiis voluptates id ea reiciendis obcaecati perferendis.'
-    },
-    {
-        avatar: AVTR4,
-        client_name: 'Gavas Restaurant',
-        review: 'Lorem ipsum dolor sit amet consectetur adipisicing elitDolore temporibus at dolorem culpa necessitatibus perspiciatis beatae ex nihil, iste, optio qui esse officiis voluptates id ea reiciendis obcaecati perferendis.'
+        client_name: 'CRYPTOMENTO99 - XINFIN ECOSYSTEM DEVELOPER USA',
+        review: 'I got an opportunity to know Confidence, who can be my Crypto Son, a very brilliant and well knowledge young man! I urge a lot of young people to follow what Confidence is doing'
     },
 ]
 const Testimonials = () => {
     return (
         <section id='testimonials'>
-            <h5>Review from Clients</h5>
+            <h5>Review from People I have worked with</h5>
             <h2>Testimonials</h2>
 
             <Swiper className="container testimonials__container"

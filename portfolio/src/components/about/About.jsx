@@ -22,7 +22,7 @@ const About = () => {
                         <article className="about__card">
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>3+ Years Working</small>
+                            <small>2+ Years Working</small>
                         </article>
                         <article className="about__card">
                             <FiUsers className='about__icon' />
@@ -32,14 +32,14 @@ const About = () => {
                         <article className="about__card">
                             <VscFolderLibrary className='about__icon' />
                             <h5>Projects</h5>
-                            <small>14 Completed Projects</small>
+                            <small>6 Completed Projects</small>
                         </article>
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Dolore neque in itaque eveniet pariatur sint, doloremque rerum deserunt 
-                        molestias eos odit laudantium eaque aperiam iure nostrum quia ex, odio voluptatum?
+                        Hie there, I am Confidence Nyirenda. I am a Web Developer based in Zimbabwe. 
+                        I develop my projects using HTML, CSS, Javascript and React. I am interested in
+                        Frontend development projects. Check out my projects in the portfolio section.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>

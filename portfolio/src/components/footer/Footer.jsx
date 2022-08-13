@@ -6,7 +6,7 @@ import {SiTwitter} from 'react-icons/si'
 const Footer = () => {
     return (
         <footer>
-            <a href="#" className='footer__logo'>AfriCoiner</a>
+            <a href="#" className='footer__logo'>Confidence Nyirenda</a>
 
             <ul className='permalinks'>
                 <li><a href="#">Home</a></li>
@@ -19,10 +19,10 @@ const Footer = () => {
             </ul>
 
             <div className="footer__socials">
-                <a href="https://facebook.com"><BsFacebook /></a>
-                <a href="https://instagram.com"><BsInstagram /></a>
-                <a href="https://linkedin.com"><BsLinkedin /></a>
-                <a href="https://twitter.com"><SiTwitter /></a>
+                <a href="https://facebook.com/confidence.nyirenda.9"><BsFacebook /></a>
+                <a href="https://instagram.com/confidence_nyirenda"><BsInstagram /></a>
+                <a href="https://linkedin.com/in/confidencenyirenda/"><BsLinkedin /></a>
+                <a href="https://twitter.com/crnyirenda"><SiTwitter /></a>
             </div>
 
             <div className="footer__copyright">
