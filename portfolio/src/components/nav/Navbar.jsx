@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
+import { AiOutlineHome, AiOutlineUser, AiOutlineYoutube } from 'react-icons/ai'
 import { MdOutlineMiscellaneousServices, MdWorkOutline } from 'react-icons/md'
 import { RiMessage2Line } from 'react-icons/ri'
 import { VscWorkspaceTrusted } from 'react-icons/vsc'
@@ -16,6 +16,7 @@ const Navbar = () => {
             <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><VscWorkspaceTrusted /></a>
             <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><MdOutlineMiscellaneousServices /></a>
             <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><MdWorkOutline /></a>
+            <a href="#media" onClick={() => setActiveNav('#media')} className={activeNav === '#media' ? 'active' : ''}><AiOutlineYoutube /></a>
             <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><RiMessage2Line /></a>
         </nav>
     )
